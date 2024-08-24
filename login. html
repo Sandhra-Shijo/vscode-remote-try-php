@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Page</title>
+        
+    </head>
+    <style>
+        #body1{background-color: rgb(206, 139, 58);
+            background-image: url(mg_img.jpeg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;background-size: 100% 100%;margin: 0%}
+        #ab{width: 450px;height: 500px;background-color: rgb(226, 203, 159);
+            margin-left: auto;margin-right: auto;margin-top: 380px;
+            margin-top: 80px;border-radius: 25px;opacity: 0.6;}
+        #ac{margin-left: 190px;margin-right: 50px;margin-top: 150px;color: rgb(102, 69, 19);
+            padding-top: 100px}    
+        #ad{display: block;margin-top: 10%;
+            margin: 20px auto;width: 200px;height: 30px;
+            border-radius: 20px;border-color: rgb(197, 121, 70);} 
+        #ae{display: block;
+            margin: 20px auto;width: 200px;height: 30px;
+            border-radius: 20px;border-color: rgb(199, 131, 29);}        
+        #af{margin-left: 48%;text-decoration: none;}
+        #ag{display: block;margin: 20px auto;width: 200px;
+            height: 30px;border: 2px;border: #04AA6D;border-radius: 5px;}
+        #ah{margin-top: 10px;margin-left: 30%;}
+        #ai{text-decoration: none;}
+    </style>
+    <body id="body1">
+    
+    <div id="ab">
+
+    <h1 id="ac">Login</h1>
+    <input type="text" id="ad" placeholder="  Username">
+    <input type="password" id="ae" placeholder="  Password">
+    <a href="#link" id="af">Forgot Password?</a>
+
+    <button  id="ag">LOG IN</button>
+
+    <p id="ah">Don't have an account?    <a id="ai" href= "#link">  Register</a></p>
+               
+
+
+            
+    </div>
+</body>
+</html>
